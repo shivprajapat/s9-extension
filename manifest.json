@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "SplashID",
+  "description": "SplashID is your own personal password manager,and free to use on one device by using your browser or an application for your device",
+  "version": "0.0.0.1",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": [		
+		"storage",
+		"tabs",
+    "activeTab",
+		"notifications",
+		"contextMenus",
+		"scripting",
+    "nativeMessaging"
+	],
+	"host_permissions": [
+		"<all_urls>"
+	],
+  "icons": {
+    "16": "images/logo_16.png",			
+    "32": "images/logo_32.png",
+    "48": "images/logo_48.png"
+  },
+  "action": {
+    "default_title": "SplashID",
+    "default_popup": "popup.html",
+    "default_icon": {
+			"16": "images/logo_16.png",			
+			"32": "images/logo_32.png",
+			"48": "images/logo_48.png"
+		}
+  },
+  "web_accessible_resources": [{
+    "resources": [
+        "images/*",
+        "css/*.css"
+        ],
+        "matches": [
+          "https://*/*"
+        ]
+  }],
+  "externally_connectable": {
+    "matches": ["http://localhost:65049/"],
+    "ids": ["gcijajjodipoimhmkpnjnemambbochbg"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": [],
+      "js": ["content-script.js"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Group_10526" data-name="Group 10526" transform="translate(-0.122)">
+    <rect id="Rectangle_1207" data-name="Rectangle 1207" width="23" height="23" transform="translate(0.122)" fill="none"/>
+    <g id="Group_10525" data-name="Group 10525" transform="translate(3.119 3.119)">
+      <circle id="Ellipse_313" data-name="Ellipse 313" cx="8.5" cy="8.5" r="8.5" transform="translate(0.003 -0.119)" fill="#bfc7d8"/>
+      <path id="Icon_material-edit" data-name="Icon material-edit" d="M4.5,12.289v2.05H6.55L12.6,8.292l-2.05-2.05Zm9.683-5.582a.544.544,0,0,0,0-.771L12.9,4.656a.544.544,0,0,0-.771,0l-1,1,2.05,2.05,1-1Z" transform="translate(-0.845 -0.841)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

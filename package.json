@@ -1,0 +1,50 @@
+{
+  "name": "webext-redux-example",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack"
+  },
+  "author": "Tyler Shaddix",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@types/chrome": "0.0.99",
+    "@types/react": "^16.9.23",
+    "aes-256-gcm": "^1.0.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "base-64": "^1.0.0",
+    "buffer": "^6.0.3",
+    "crypto-js": "^4.1.1",
+    "cryptocipher": "^3.0.6",
+    "css-loader": "^3.2.0",
+    "is_js": "^0.9.0",
+    "localStorage": "^1.0.4",
+    "react": "^16.13.0",
+    "react-alphabet-list": "^0.1.8",
+    "react-debounce-input": "^3.2.5",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "react-smooth-scrollbar": "^8.0.6",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.4.1",
+    "secret-box": "^0.1.1",
+    "secret-key": "^1.5.1",
+    "smooth-scrollbar": "^8.7.0",
+    "socket.io-client": "^4.4.0",
+    "style-loader": "^1.0.0",
+    "webext-redux": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
